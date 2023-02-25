@@ -4,6 +4,10 @@ This is a fork of the [krunner-gitlab](https://github.com/shochdoerfer/krunner-g
 
 This package provides a [KRunner](https://blog.davidedmundson.co.uk/blog/cross-process-runners/) backend which will use a GitLab instance as a search backend. Currently only project names are searched for, this might change in the future.
 
+![Maintenance Badge](https://img.shields.io/maintenance/yes/2023.svg)                                      
+[![Go Report Card](https://goreportcard.com/badge/github.com/cmuench/krunner-gitlab)](https://goreportcard.com/report/github.com/cmuench/krunner-gitlab)
+[![Go Github Action Workflow](https://github.com/cmuench/krunner-gitlab/workflows/Go/badge.svg)](https://github.com/cmuench/krunner-gitlab/actions?query=workflow%3AGo)
+
 ## Installation
 
 Clone this repository
