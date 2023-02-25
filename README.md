@@ -8,6 +8,8 @@ This package provides a [KRunner](https://blog.davidedmundson.co.uk/blog/cross-p
 [![Go Report Card](https://goreportcard.com/badge/github.com/cmuench/krunner-gitlab)](https://goreportcard.com/report/github.com/cmuench/krunner-gitlab)
 [![Go Github Action Workflow](https://github.com/cmuench/krunner-gitlab/workflows/Go/badge.svg)](https://github.com/cmuench/krunner-gitlab/actions?query=workflow%3AGo)
 
+![20230225102929.png](docs%2F20230225102929.png)
+
 ## Installation
 
 Clone this repository
