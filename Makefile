@@ -8,4 +8,5 @@ test:
 	go test ./...
 
 recreate-systemd: install
-	systemctl --user restart krunner-gitlab.service
+	systemctl --user restart krunner-gitlab.service && \
+    kquitapp5 krunner

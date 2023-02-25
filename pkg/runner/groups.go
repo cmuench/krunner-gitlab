@@ -38,7 +38,7 @@ func (r Runner) searchGroups(query string, matches []matchOut) ([]matchOut, erro
 			description,
 			groups[i].ID,
 		)
-		matches[i].IconName = "internet-web-browser"
+		matches[i].IconName = "hicolor/128x128/apps/krunner-gitlab.png"
 		matches[i].Type = 100
 		matches[i].Properties = map[string]interface{}{
 			"multiline": true,

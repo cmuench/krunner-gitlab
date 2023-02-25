@@ -21,7 +21,11 @@ git clone https://github.com/cmuench/krunner-gitlab
 Build the go application
 
 ```
+# only the go application
 go install
+
+# build the application and install all icons etc. on your local machine
+./install.sh
 ```
 
 Register the runner in KDE by storing a file called `krunner-gitlab.desktop` in `$HOME/.local/share/kservices5` and then restart the rkunner process.
@@ -89,3 +93,5 @@ systemctl --user start krunner-gitlab.service
 ## License
 
 KRunner GitLab is released under the Apache 2.0 license.
+
+Gitlab Icon from https://icon-icons.com/icon/gitlab-original-logo/146503

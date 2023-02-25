@@ -49,7 +49,7 @@ func (r Runner) searchProjects(query string, matches []matchOut) ([]matchOut, er
 			projects[i].PathWithNamespace,
 			projects[i].ID,
 		)
-		matches[i].IconName = "internet-web-browser"
+		matches[i].IconName = "hicolor/128x128/apps/krunner-gitlab.png"
 		matches[i].Type = 100
 		matches[i].Relevance = 1
 		matches[i].Properties = map[string]interface{}{
