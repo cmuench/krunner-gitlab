@@ -1,0 +1,5 @@
+url: https://your-gitlab-server/api/v4
+token: your-token
+items_to_show: 10
+query_min_length: 4
+query_prefix: gitlab
