@@ -43,7 +43,14 @@ It is important to note that the url needs to point to the GitLab API url!
 
 ## Run the application
 
-Run `krunner-gitlab` in your `go/bin` directory. Invoke KRunner and start searching for GitLab projects. 
+Run `krunner-gitlab` in your `go/bin` directory. Invoke KRunner and start searching for GitLab projects.
+
+## Use in krunner
+
+Type the query-prefix (standard is **gitlab**).
+
+- Search projects: `gitlab p <query string>`
+- Search groups: `gitlab g <query string>`
 
 ## systemd Integration
 
